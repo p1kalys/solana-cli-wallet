@@ -1,0 +1,26 @@
+{
+  "name": "solana-cli-wallet",
+  "module": "dist/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "reset": "rm -rf ./node_modules && bun i",
+    "start": "bun run clean && bun build ./src/index.ts --minify --outdir=dist --outfile=index.js --target=node"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.2",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "conf": "^14.0.0"
+  },
+  "bin": {
+    "solana-cli-wallet": "dist/index.js"
+  }
+}
