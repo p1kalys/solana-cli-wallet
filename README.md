@@ -1,24 +1,24 @@
-# 🪙 Solana CLI Wallet
+# Solana CLI Wallet
 
 A command-line wallet for Solana built using Bun, TypeScript, and the Solana Web3.js SDK. Manage keypairs, check balances, request airdrops, and transfer SOL — all from your terminal.
 
 
-## 📦 Features
+## Features
 
-- 🔐 Generate and store keypairs securely
-- 💰 Request SOL airdrops on devnet
-- 📊 Check account balances
-- 💸 Transfer SOL between addresses
-- 🧹 Clear stored wallet data
+-  Generate and store keypairs securely
+-  Request SOL airdrops on devnet
+-  Check account balances
+-  Transfer SOL between addresses
+-  Clear stored wallet data
 
 
-## ⚙️ Requirements
+## Requirements
 
 - [Bun](https://bun.sh/) v1.0+
 - Node.js-compatible shell (e.g. Git Bash, PowerShell, or WSL on Windows)
 
 
-## 🚀 Installation
+## Installation
 
 Clone the project:
 
